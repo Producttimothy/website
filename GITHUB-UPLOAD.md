@@ -1,6 +1,6 @@
 # GitHub-Dateien vollständig ersetzen
 
-Dieses Paket ist Version 18 vom 13. August 2026.
+Dieses Paket ist Version 19 vom 13. August 2026.
 
 1. ZIP-Datei auf dem Computer entpacken.
 2. Im GitHub-Repository **Add file → Upload files** öffnen.
@@ -9,4 +9,4 @@ Dieses Paket ist Version 18 vom 13. August 2026.
 5. Unter **Settings → Pages** prüfen, dass der richtige Branch und der Ordner **/(root)** ausgewählt sind.
 6. Nach der Veröffentlichung einmal mit Strg+F5 beziehungsweise Cmd+Shift+R neu laden.
 
-Kontrolle: Die Preisboxen zeigen „Preisorientierung für Ihr Objekt.“; der Rechner nennt Orientierungspreise, den Gewerbezuschlag von 3,57 EUR, den Willkommensbonus von 7 % und den neuen Disclaimer.
+Kontrolle: Der Menübutton „Angebot anfragen“ führt auch von Unterseiten zum Anfrageformular auf der Startseite.

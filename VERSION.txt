@@ -1,5 +1,4 @@
-GreenTech GitHub Pages – Paket v18
+GreenTech GitHub Pages – Paket v19
 Stand: 13. August 2026
-Preisboxen: Preisorientierung für Ihr Objekt
+Navigation: Angebot anfragen führt von jeder Unterseite zum Anfrageformular
 Preisrechner: Orientierungspreise, Gewerbezuschlag 3,57 EUR und Willkommensbonus 7 %
-Disclaimer: unverbindliche Preisorientierung
