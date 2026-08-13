@@ -1,6 +1,5 @@
-GreenTech GitHub Pages – Paket v16
+GreenTech GitHub Pages – Paket v17
 Stand: 13. August 2026
-WEG: 24 h über das Portal erreichbar
-Mietverwaltung: 43,00 EUR bei 10 Einheiten
-Vermietung: 1,5 NKM
-Vertragsvorlagen: Preise je Stück inkl. MwSt.
+Preisboxen: Preisorientierung für Ihr Objekt
+Preisrechner: Orientierungspreise und Gewerbezuschlag 3,57 EUR
+Disclaimer: unverbindliche Preisorientierung
