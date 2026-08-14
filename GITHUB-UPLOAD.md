@@ -1,6 +1,6 @@
 # GitHub-Dateien vollständig ersetzen
 
-Dieses Paket ist Version 20 vom 14. August 2026.
+Dieses Paket ist Version 21 vom 14. August 2026.
 
 1. ZIP-Datei auf dem Computer entpacken.
 2. Im GitHub-Repository **Add file → Upload files** öffnen.
@@ -9,4 +9,4 @@ Dieses Paket ist Version 20 vom 14. August 2026.
 5. Unter **Settings → Pages** prüfen, dass der richtige Branch und der Ordner **/(root)** ausgewählt sind.
 6. Nach der Veröffentlichung einmal mit Strg+F5 beziehungsweise Cmd+Shift+R neu laden.
 
-Kontrolle: Im Preisrechner sind die vier Preisbeispiel-Kästchen entfernt, die Infobox steht unter dem berechneten Preis und Pfeile erscheinen nicht mehr als iOS-Emojis.
+Kontrolle: Mobil schließen Regler- und Ergebnisbereich des Preisrechners ohne Zwischenraum aneinander an. Die vier Preisbeispiel-Kästchen sind entfernt, die Infobox steht unter dem berechneten Preis und Pfeile erscheinen nicht als iOS-Emojis.

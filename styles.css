@@ -354,6 +354,7 @@ footer { background: #061a1d; color: white; }
   .hero-content { width: 100%; margin-left: 0; }
   .hero-meta { margin-left: 0; }
   .section-heading, .intro, .transparency, .contact-grid, .faq-section, .subhero-grid, .service-intro, .detail-section, .extras-grid, .calculator-layout, .pricing-explain, .location-grid { grid-template-columns: 1fr; gap: 55px; }
+  .calculator-layout { gap: 0; }
   .service-grid { grid-template-columns: repeat(2, 1fr); }
   .quote-inner { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr 1.6fr; }

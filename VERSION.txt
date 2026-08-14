@@ -1,4 +1,5 @@
-GreenTech GitHub Pages – Paket v20
+GreenTech GitHub Pages – Paket v21
 Stand: 14. August 2026
+Mobil: Regler- und Ergebnisbereich des Preisrechners schließen ohne Zwischenraum aneinander an
 Preisrechner: Preisbeispiel-Kästchen entfernt und Infobox unter dem Preis
 Darstellung: Pfeile als iOS-sichere SVG-Symbole statt Emoji-Zeichen
