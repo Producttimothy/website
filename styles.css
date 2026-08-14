@@ -64,6 +64,9 @@ button, summary { cursor: pointer; }
 .button:hover::before { transform: translateX(105%) skewX(-18deg); }
 .button > span { position: relative; transition: transform .25s ease; }
 .button:hover > span { transform: translate(3px,-3px); }
+.arrow-icon { width: 16px; height: 16px; display: inline-flex; flex: 0 0 16px; align-items: center; justify-content: center; }
+.arrow-icon svg { width: 100%; height: 100%; display: block; overflow: visible; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.arrow-icon-right { width: 17px; flex-basis: 17px; }
 .button-small { min-height: 44px; padding: 0 18px; gap: 14px; }
 .hero {
   min-height: 700px; position: relative; overflow: hidden;
@@ -290,11 +293,6 @@ footer { background: #061a1d; color: white; }
 .range-control output { min-width: 56px; padding: 10px; background: var(--green); text-align: center; font-size: 18px; font-weight: 800; }
 .range-control input { width: 100%; margin: 24px 0 6px; accent-color: var(--ink); }
 .range-control small { display: flex; justify-content: space-between; color: var(--muted); }
-.price-scale { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 34px; border: 1px solid var(--line); }
-.price-scale > span { min-width: 0; padding: 14px; display: grid; gap: 5px; }
-.price-scale > span + span { border-left: 1px solid var(--line); }
-.price-scale b { font-family: Georgia, "Times New Roman", serif; font-size: 25px; font-weight: 400; }
-.price-scale small { color: var(--muted); font-size: 10px; line-height: 1.35; }
 .calculator-note { display: grid; grid-template-columns: 28px 1fr; gap: 14px; margin-top: 40px; padding: 20px; background: var(--green-soft); }
 .calculator-note > span { width: 24px; height: 24px; display: grid; place-items: center; border: 1px solid var(--ink); border-radius: 50%; font-size: 12px; font-weight: 800; }
 .calculator-note p { margin: 0; font-size: 12px; line-height: 1.55; }
@@ -309,6 +307,8 @@ footer { background: #061a1d; color: white; }
 .total-price > span { font-size: 12px; font-weight: 700; }
 .total-price strong { grid-row: span 2; font-family: Georgia, "Times New Roman", serif; font-size: 32px; font-weight: 400; }
 .total-price small { color: rgba(255,255,255,.45); font-size: 10px; }
+.result-card .calculator-note { position: relative; z-index: 1; margin: 0 0 30px; color: var(--ink-deep); }
+.result-card .calculator-note p { color: var(--ink-deep); }
 .result-card ul { list-style: none; padding: 0; margin: 0 0 30px; display: grid; gap: 13px; color: rgba(255,255,255,.75); font-size: 13px; }
 .result-card .button { width: 100%; }
 .result-disclaimer { margin: 20px 0 0; color: rgba(255,255,255,.4); font-size: 10px; line-height: 1.5; }
@@ -402,9 +402,6 @@ footer { background: #061a1d; color: white; }
   .calculator-controls, .result-card { padding: 26px 22px; }
   .segment { grid-template-columns: 1fr; }
   .unit-price { align-items: flex-start; flex-direction: column; }
-  .price-scale { grid-template-columns: repeat(2, 1fr); }
-  .price-scale > span:nth-child(3), .price-scale > span:nth-child(4) { border-top: 1px solid var(--line); }
-  .price-scale > span:nth-child(3) { border-left: 0; }
   .total-price { grid-template-columns: 1fr; gap: 7px; align-items: start; }
   .total-price strong { grid-row: auto; }
   .price-factors p { grid-template-columns: 38px 1fr; gap: 5px 12px; }

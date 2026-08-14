@@ -1,4 +1,4 @@
-GreenTech GitHub Pages – Paket v19
-Stand: 13. August 2026
-Navigation: Angebot anfragen führt von jeder Unterseite zum Anfrageformular
-Preisrechner: Orientierungspreise, Gewerbezuschlag 3,57 EUR und Willkommensbonus 7 %
+GreenTech GitHub Pages – Paket v20
+Stand: 14. August 2026
+Preisrechner: Preisbeispiel-Kästchen entfernt und Infobox unter dem Preis
+Darstellung: Pfeile als iOS-sichere SVG-Symbole statt Emoji-Zeichen
